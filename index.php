@@ -14,15 +14,15 @@
       
   <meta name="theme-color" content="#389cc3" data-keep="true">
       
-  <meta property="og:image" content="logo.png" />
-  <meta property="og:image:type" content="image/png" />
+  <meta property="og:image" content="images/logo.png" />
+  <meta property="og:image:type" content="images/image/png" />
       
   <meta property="og:title" content="Heylle.com | Quick Knowledge" />
   <meta property="og:description" content="Heylle, is where you get simplified information about every kind of topic, event or personality in an instant and easy way." />
       
   <meta name="author" content="Arnav Singh & Saurav Anand">
       
-  <link rel="icon" href="logo.png" sizes="16x16" type="image/png">
+  <link rel="icon" href="images/logo.png" sizes="16x16" type="image/png">
   <link rel="stylesheet" type="text/css" href="main.css">
   
   
@@ -78,7 +78,7 @@
    </div>
 
    <div id="portal"> </div>
-  <img src="spin.svg" id="loading-more">
+  <img src="images/spin.svg" id="loading-more">
   
   <div id="pageMotion">
   <button type="button" onclick="closeExtra('know-more-popup')" id="closeExtra2">&times;</button>
@@ -92,8 +92,8 @@
   <div id="circular">
 
 <nav id="navigation">
-  <img src="heylle.png" id="hey1" onclick="about()"><br>
-  <img src="heylletypo.png" id="hey2" >
+  <img src="images/heylle.png" id="hey1" onclick="about()"><br>
+  <img src="images/heylleTypo.png" id="hey2" >
 </nav>
 
 
@@ -147,7 +147,7 @@
      <hr>
 
       <div id="logo">
-         <img src="h.svg">
+         <img src="images/h.svg">
        </div>
       <div id="heylle_info">
         we believe in simplicity.<br> so, we made exploring knowledge simpler and better <br>| An encyclopedia of everything |    
@@ -164,12 +164,12 @@
         </div>
       </div>
   </div>
-  <img src="spin.svg" id="loading" style="display: none;">
+  <img src="images/spin.svg" id="loading" style="display: none;">
 </center>
 
 <div id="home-bar">
   <div id="dots">
-<img src="menu.png" id="menuimg">
+<img src="images/menu.png" id="menuimg">
 
       
 
