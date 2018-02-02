@@ -11,16 +11,16 @@
   <meta charset="UTF-8">
       
   <meta name="description" content="
-Search has always been the core of the whole internet, it defines the experience of using the internet but that very core thing never really changed. So we started from scratch to solve that problem in every aspect, we tried to make a search experience for today's world. A search Engine for the Today's World.">
+Search has always been the core of the whole internet, it defines the experience of using the internet but that very core thing never really changed. So we started from scratch to solve that problem in every aspect, we tried to make a search experience for today's world. A new search engine for the Today's World.">
       
   <meta name="theme-color" content="#389cc3" data-keep="true">
       
   <meta property="og:image" content="images/logo.png" />
   <meta property="og:image:type" content="images/image/png" />
       
-  <meta property="og:title" content="Heylle.com | A search Engine for the Today's World." />
+  <meta property="og:title" content="Heylle.com | A new search engine for the Today's World." />
   <meta property="og:description" content="
-Search has always been the core of the whole internet, it defines the experience of using the internet but that very core thing never really changed. So we started from scratch to solve that problem in every aspect, we tried to make a search experience for today's world. A search Engine for the Today's World." />
+Search has always been the core of the whole internet, it defines the experience of using the internet but that very core thing never really changed. So we started from scratch to solve that problem in every aspect, we tried to make a search experience for today's world. A search engine for the Today's World." />
       
   <meta name="author" content="Arnav Singh & Saurav Anand">
       
@@ -47,7 +47,7 @@ Search has always been the core of the whole internet, it defines the experience
 
   
       
-  <title>Heylle | Quick Knowledge</title>
+  <title>Heylle | A new search engine for the Today's World.</title>
 
   <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
