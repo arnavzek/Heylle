@@ -33,16 +33,12 @@ Search has always been the core of the whole internet, it defines the experience
     if(isset($_GET['qr'])) {
         $query = $_GET['qr'];
   }
-
     else  if(isset($_GET['tp'])) {
         $topicM = $_GET['tp'];
   }else{
     $query = NULL;
     $topicM = NULL;
   }
-
-
-
   ?>
 
   
@@ -54,10 +50,8 @@ Search has always been the core of the whole internet, it defines the experience
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
   })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
   ga('create', 'UA-90406803-1', 'auto');
   ga('send', 'pageview');
-
 </script>
 
 </head>
@@ -193,32 +187,25 @@ Search has always been the core of the whole internet, it defines the experience
 <script type="text/javascript" src="main.js"></script>
 
 <script type="text/javascript" >
-
 var TopicEn = "<?php echo $topicM ?>";
-
 function TitleChange() {
   document.title = "<?php echo $topicM ?>" + " - Heylle";
 }
   
-
 </script>
 
 <script>
 <?php
-
 if(isset($_GET['qr']))
 {
   echo('MainClick();');
 }
-
 if(isset($_GET['tp']))
 {
   echo('showmore(TopicEn);');
   echo('TitleChange();'); 
 }
-
 ?>
 </script>
-
 </body>
 </html>
