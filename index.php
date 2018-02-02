@@ -93,7 +93,7 @@
 
 <nav id="navigation">
   <img src="heylle.png" id="hey1" onclick="about()"><br>
-  <img src="heylleTypo.png" id="hey2" >
+  <img src="heylletypo.png" id="hey2" >
 </nav>
 
 
