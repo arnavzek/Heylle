@@ -628,7 +628,7 @@ function getEMainData(data)
 
              // alert(i);
 
-              document.getElementById('Videos').innerHTML += "<div onclick='Playvideo(\""+myArr.items[i].id.videoId+"\");' class='container'><img class='images' src=' " +myArr.items[i].snippet.thumbnails.medium.url+"'> <img id='play' src='play.png'> </div>";
+              document.getElementById('Videos').innerHTML += "<div onclick='Playvideo(\""+myArr.items[i].id.videoId+"\");' class='container'><img class='images' src=' " +myArr.items[i].snippet.thumbnails.medium.url+"'> <img id='play' src='images/play.png'> </div>";
             }
 
               
