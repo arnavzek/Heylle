@@ -1447,16 +1447,15 @@ table th {
   }
 
   #sites {
-    margin-left: 10vw;
+    margin-left: 5vw;
 }
 
   .link{
     margin-bottom: 2vw;
     display: block;
-    width: 85%;
+    width: 92%;
     padding: 2%;
     border-radius: 2vw;
-
     color: #000;
     height: auto;
     background: whitesmoke;
