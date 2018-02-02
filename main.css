@@ -600,7 +600,7 @@ padding-top: 0.5vw; */
     cursor: pointer;
     border-radius: 0.2vw;
     box-shadow: 0vw 0.2vw 0.5vw rgba(0, 0, 0, 0.5);
-    transition: 0.3s ease-in-out;
+    /*transition: 0.3s ease-in-out;*/
     /* margin-bottom: 2vw; */
     width: 87vw;
     /* float: left; */
@@ -619,7 +619,7 @@ padding-top: 0.5vw; */
 div#RichWIki p#output-R:hover{
   color: #222 !important;
   background-color: hsla(0,0%,100%,1);
-  box-shadow: 0vw 1vw 2vw 2px rgba(0, 0, 0, 0.62);
+  box-shadow: 0vw 1vw 2vw 2px rgba(0, 0, 0, 0.31);
 }
 
 div#RichWIki p#output-R:hover span#infobox{
@@ -649,7 +649,7 @@ article p#output-p
     cursor: pointer;
     border-radius: 0.3vw;
     /* box-shadow: 0vw 0.2vw 0.4vw rgba(0, 0, 0, 0.3); */
-    transition: 0.3s ease-in-out;
+    /*transition: 0.3s ease-in-out;*/
     margin-bottom: 1.3vw;
     width: 4.5vw;
     float: left;
@@ -720,7 +720,7 @@ border-radius: 0;
 
     .images{
     width: 20vw;
-    height: 10vw;
+    height: 9vw;
     display: block;
     object-fit: cover;
     /* border-radius: 1vw; */
@@ -728,7 +728,7 @@ border-radius: 0;
   }
 
   #Videos{
-    /* margin-top: 5vw; */
+     margin-top: 1.5vw;
     display: table-caption;
     float: right;
     margin-right: 26vw;
@@ -737,6 +737,8 @@ border-radius: 0;
 
   #sites{
     margin-left: 7vw;
+    width: 55vw;
+    box-shadow: 0 0.1vw 20vw #55555578;
   }
 
 
@@ -744,14 +746,14 @@ border-radius: 0;
     transition: ease-in-out 0.3s;
     /* background-color: #333; */
     width: 20vw;
-    height: 10vw;
+    /*height: 10vw;*/
     /* border-radius: 0.5vw; */
     position: relative;
     display: block;
     cursor: pointer;
     margin-left: 3vw;
     /* margin-bottom: 1vw; */
-    border: 0.1vw solid #e7e7e7;
+    border: 0.5px solid #fff;
     float: left;
     overflow: hidden;
     box-shadow: 0vw 0.2vw 0.2vw rgba(0, 0, 0, 0.5);
@@ -1228,7 +1230,7 @@ article p#output-p #resultI{
     color: #f3f3f3;
     display: inline-block;
     background: radial-gradient(circle, #3f3f3f, #373737, #1a2e29);
-    font-size: 5vw;
+    font-size: 4vw;
     height: 5vw;
     /* float: left; */
     width: 5vw;
@@ -1377,21 +1379,21 @@ table th {
 }
 
 .link {
-    margin-bottom: 2vw;
+    margin-bottom: 0vw;
+    border-left: 1vw solid;
     display: block;
-    width: 60%;
-    padding: 0.4% 2%;
-    box-shadow: 0 0.1vw 0.1vw #55555578;
-    border-radius: 0.2vw;
+    width: 100%;
+    padding: 0.4% 1%;
     color: #505050;
     height: auto;
     text-align: left;
+    border-bottom: 0.1vw solid #505050;
     background: white;
 }
 
 .link:hover{
-    color: #56aacc;
-    background: #312f2f;
+    color: #333;
+    background: #229af3;
 }
 
 .link p{
@@ -1403,10 +1405,11 @@ table th {
   margin:0;
   color: #222;
   font-size: 2vw;
+  padding: 0.3vw 0;
 }
 
 .link:hover h5{
-  color: #56bce4;
+  color: black;
 }
 
 
@@ -1447,7 +1450,8 @@ table th {
   }
 
   #sites {
-    margin-left: 5vw;
+    margin-left: 3vw;
+    width: 100%;
 }
 
   .link{
@@ -1455,7 +1459,7 @@ table th {
     display: block;
     width: 92%;
     padding: 2%;
-    border-radius: 2vw;
+    border-radius: 0.5vw;
     color: #000;
     height: auto;
     background: whitesmoke;
@@ -1603,7 +1607,7 @@ table th {
 div#RichWIki p#output-R
   {
     font-size: 3.8vw;
-    box-shadow: 0vw 1vw 7vw rgba(0, 0, 0, 0.3);
+    box-shadow: 0vw 0.2vw 0.5vw rgba(0, 0, 0, 0.26);
     width: 90vw;
     overflow: hidden;
     float: none;
