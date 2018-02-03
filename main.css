@@ -723,7 +723,6 @@ border-radius: 0;
     height: 8vw;
     display: block;
     object-fit: cover;
-    border-radius: 1vw;
     overflow: hidden;
   }
 
