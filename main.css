@@ -685,9 +685,9 @@ border-radius: 0;
     position: absolute;
     z-index: 1;
     height: 4vw;
-    top: 3vw;
+    top: 2vw;
     transition: ease-in-out 0.2s;
-    left: 8vw;
+    left: 6vw;
   }
 
   #player{
@@ -719,19 +719,19 @@ border-radius: 0;
   }
 
     .images{
-    width: 20vw;
-    height: 9vw;
+    width: 15vw;
+    height: 8vw;
     display: block;
     object-fit: cover;
-    /* border-radius: 1vw; */
+    border-radius: 1vw;
     overflow: hidden;
   }
 
   #Videos{
-     margin-top: 1.5vw;
+    margin-top: 1.5vw;
     display: table-caption;
     float: right;
-    margin-right: 26vw;
+    margin-right: 23vw;
     width: 5vw;
   }
 
@@ -745,7 +745,7 @@ border-radius: 0;
   .container {
     transition: ease-in-out 0.3s;
     /* background-color: #333; */
-    width: 20vw;
+    /*width: 20vw;*/
     /*height: 10vw;*/
     /* border-radius: 0.5vw; */
     position: relative;
@@ -1389,6 +1389,7 @@ table th {
     text-align: left;
     border-bottom: 0.1vw solid #505050;
     background: white;
+    padding-bottom: 1.5vw;
 }
 
 .link:hover{
@@ -1397,14 +1398,14 @@ table th {
 }
 
 .link p{
-      font-size: 1.2vw;
+      font-size: 1vw;
       margin:0;
 }
 
 .link h5{
   margin:0;
   color: #222;
-  font-size: 2vw;
+  font-size: 1.7vw;
   padding: 0.3vw 0;
 }
 
@@ -1466,11 +1467,11 @@ table th {
 }
 
   .images{
-    width: 15vw;
-    height: 15vw;
+    width: 20vw;
+    height: 9vw;
     display: block;
     object-fit: cover;
-    border-radius: 1vw;
+    /* border-radius: 1vw; */
     overflow: hidden;
   }
 
