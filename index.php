@@ -194,11 +194,6 @@ Search has always been the core of the whole internet, it defines the experience
 
 <script type="text/javascript" >
 
-$(document).ready(function() {
-$(“img”).error(function() {
-$(this).hide();
-});
-});
 
 
 var TopicEn = "<?php echo $topicM ?>";
