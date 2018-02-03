@@ -417,13 +417,13 @@ function positionsys(){
     wr.id('list').style.bottom = '0';
     wr.id('list').style.left = '-3vw';
     wr.id('list').style.top = '1vw';
-    wr.id('menuimg').style.height = '3.9vw';
+    wr.id('menuimg').style.height = '3.3vw';
      wr.id('menuimg').style.boxShadow = 'none';
 
 
 
     wr.id('bod').style.overflowY ="visible";
-    wr.id('hey1').style.height = '4vw';
+    wr.id('hey1').style.height = '3.5vw';
     wr.id('hey1').style.padding = '0';
     wr.id('hey1').style.boxShadow = 'none';
 
@@ -447,13 +447,14 @@ function positionsys(){
     wr.id('circular').style.borderRadius = '0vw';
 
     wr.id('search-main').style.width = '47vw';
-    wr.id('search-main').style.height = '4.2vw';
+    wr.id('search-main').style.height = '3.5vw';
+    wr.id('search-main').style.fontSize = '1.5vw';
     wr.id('search-main').style.borderRadius = '0.5vw';
 
     wr.id('search-svg').style.top = '2.35vw';
-    wr.id('search-svg').style.right = '28vw';
+    wr.id('search-svg').style.right = '26.5vw';
     wr.id('search-svg').style.width = '3vw';
-    wr.id('search-svg').style.height = '3vw';
+    wr.id('search-svg').style.height = '2.5vw';
     wr.id('search-svg').style.padding = '0.2vw';
     wr.id('search-svg').style.borderRadius = '0.5vw';
 
