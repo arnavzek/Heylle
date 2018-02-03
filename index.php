@@ -32,18 +32,24 @@ Search has always been the core of the whole internet, it defines the experience
    
     if(isset($_GET['qr'])) {
         $query = $_GET['qr'];
+        $title_dis = NULL;
+        $page_term = $query." | " ;
   }
     else  if(isset($_GET['tp'])) {
         $topicM = $_GET['tp'];
+        $title_dis = NULL;
+        $page_term = $topicM." | " ;
   }else{
     $query = NULL;
     $topicM = NULL;
+    $page_term = NULL;
+    $title_dis = "| A new search engine for the Today's World";
   }
   ?>
 
   
       
-  <title>Heylle | A new search engine for the Today's World.</title>
+  <title><?php echo $page_term."Heylle".$title_dis ?></title>
 
   <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
