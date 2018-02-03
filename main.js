@@ -448,7 +448,7 @@ function positionsys(){
 
     wr.id('search-main').style.width = '47vw';
     wr.id('search-main').style.height = '3.5vw';
-    wr.id('search-main').style.fontSize = '1.5vw';
+    wr.id('search-main').style.fontSize = '1.75vw';
     wr.id('search-main').style.borderRadius = '0.5vw';
 
     wr.id('search-svg').style.top = '2.35vw';
