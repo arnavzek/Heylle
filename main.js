@@ -673,6 +673,7 @@ function getEMainData(data)
         if (this.readyState == 4 && this.status == 200) 
         {
           document.getElementById("sites").innerHTML = "";
+            wr.id('loading').style.display = "none";
             myArr = JSON.parse(this.responseText);
 
             //document.getElementById("sites").innerHTML = myArr;
