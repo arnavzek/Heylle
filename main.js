@@ -921,7 +921,7 @@ function closeExtra(el)
 { 
   history.pushState({state:1}, "State 1", "?qr="+wr.id('search-main').value);
   // window.history.back();
-  document.title = "Heylle | Quick Knowledge";
+//   document.title = "Heylle | Quick Knowledge";
   window.scrollTo(0, 0);
   wr.id(el).style.display = "none";
   wr.id('know-more-popup').style.display = "none";
