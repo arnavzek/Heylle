@@ -49,7 +49,7 @@ Search has always been the core of the whole internet, it defines the experience
 
   
       
-  <title><?php echo $page_term."Heylle".$title_dis ?></title>
+  <title><?php echo $page_term." Heylle ".$title_dis ?></title>
 
   <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -188,11 +188,19 @@ Search has always been the core of the whole internet, it defines the experience
   </div>
 </div>
 
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 
 <script type="text/javascript" src="main.js"></script>
 
 <script type="text/javascript" >
+
+$(document).ready(function() {
+$(“img”).error(function() {
+$(this).hide();
+});
+});
+
+
 var TopicEn = "<?php echo $topicM ?>";
 function TitleChange() {
   document.title = "<?php echo $topicM ?>" + " - Heylle";
@@ -201,6 +209,10 @@ function TitleChange() {
 </script>
 
 <script>
+
+
+
+
 <?php
 if(isset($_GET['qr']))
 {
