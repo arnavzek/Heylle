@@ -469,6 +469,7 @@ function positionsys(){
       wr.id('main-input').style.marginRight = '0';
       wr.id('main-input').style.right = '2.5vw';
       wr.id('search-main').style.borderRadius = '2vw';
+      wr.id('search-main').style.fontSize = '4vw';
       wr.id('search-main').style.width = '74vw';
       wr.id('search-main').style.marginTop = '0';
       wr.id('hey1').style.top = '2vw';
