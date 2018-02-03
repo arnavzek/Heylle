@@ -74,12 +74,13 @@ function MainClick()
 function MainEnter(enterKey) 
 {
 
-  deabout();
+  
 
   
  if (enterKey.keyCode == '13') {
       
     MainClick();
+    deabout();
 
   }
   
