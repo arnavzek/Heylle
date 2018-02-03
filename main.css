@@ -1390,7 +1390,7 @@ table th {
 
 .link {
     margin-bottom: 0vw;
-    border-left: 1vw solid;
+    border-left: 0.5vw solid;
     display: block;
     width: 100%;
     padding: 0.4% 1%;
