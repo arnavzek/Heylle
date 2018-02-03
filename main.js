@@ -58,6 +58,7 @@ function MainClick()
   wr.id("sites").innerHTML = "";
 
         var titleM = wr.id('search-main').value;
+        document.title = titleM+" | Heylle search";
         var titleN = titleM.replace(/'/g,"%27");
         var titleF = titleN.replace(/ /g,"%20");
 
@@ -418,7 +419,7 @@ function positionsys(){
     wr.id('list').style.left = '-3vw';
     wr.id('list').style.top = '1vw';
     wr.id('menuimg').style.height = '3.3vw';
-     wr.id('menuimg').style.boxShadow = 'none';
+    wr.id('menuimg').style.boxShadow = 'none';
 
 
 
