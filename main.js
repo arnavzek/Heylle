@@ -413,7 +413,7 @@ function positionsys(){
     wr.id('home-bar').style.height = '3vw';
     wr.id('home-bar').style.color = 'whitesmoke';
     wr.id('home-bar').style.backgroundColor = 'transparent';
-    wr.id('bod').style.backgroundColor = '#69a8c0';
+    wr.id('bod').style.background = ' linear-gradient(-180deg,#80b7cd,#ffffff) ';
     wr.id('list').style.position = 'relative';
     wr.id('list').style.bottom = '0';
     wr.id('list').style.left = '-3vw';
@@ -469,9 +469,9 @@ function positionsys(){
       wr.id('main-input').style.marginRight = '0';
       wr.id('main-input').style.right = '2.5vw';
       wr.id('search-main').style.borderRadius = '2vw';
-      wr.id('search-main').style.fontSize = '4vw';
       wr.id('search-main').style.width = '74vw';
       wr.id('search-main').style.marginTop = '0';
+      wr.id('search-main').style.fontSize = '4vw';
       wr.id('hey1').style.top = '2vw';
       wr.id('hey1').style.height = '11vw';
       wr.id('navigation').style.top = '0.5vw';
@@ -604,6 +604,8 @@ function getEMainData(data)
     
 }
 
+
+
   function Playvideo(vidid){
 
     document.getElementById("player").style.display = "block";
@@ -612,6 +614,12 @@ function getEMainData(data)
     document.getElementById("player").innerHTML = '<iframe width="560" height="315" src="https://www.youtube.com/embed/'+vidid+'?autoplay=1" frameborder="0" allowfullscreen></iframe>' ;
     window.scrollTo(0, 0);
   }
+
+  var getLocation = function(href) {
+    var l = document.createElement("a");
+    l.href = href;
+    return l;
+};
 
 
   function showVideos()
@@ -649,6 +657,11 @@ function getEMainData(data)
     xmlhttp.send();
   };
 
+
+  function errorocc(box){
+   box.style.display = 'none';
+  }
+
     function show_websites()
   {
         var xmlhttp = new XMLHttpRequest();
@@ -667,7 +680,10 @@ function getEMainData(data)
 
              // alert(i);
 
-              document.getElementById('sites').innerHTML += "<a target='_blank' href="+myArr.items[i].link+" class='link'> <h5>"+myArr.items[i].title+"</h5><p>"+myArr.items[i].link+"<br>"+myArr.items[i].snippet+"</p></a>";
+              var l = getLocation(myArr.items[i].link);
+              console.debug(l.hostname)
+
+              document.getElementById('sites').innerHTML += "<a target='_blank' href="+myArr.items[i].link+" class='link'> <img id='web_logo' src='http://"+l.hostname+"/favicon.ico ' onError='errorocc(this)'> <h5>"+myArr.items[i].title+"</h5><p>"+myArr.items[i].link+"<br>"+myArr.items[i].snippet+"</p></a>";
             }
 
               
@@ -684,6 +700,7 @@ function getEMainData(data)
       xmlhttp.open("GET", "https://www.googleapis.com/customsearch/v1?key=AIzaSyDmj2fG7vMUR50j9n_TtYDcYHGqBw0eB_s&cx=013886194400589540356:b4shtzahg_0&q="+wr.id('search-main').value, true);
     xmlhttp.send();
   };
+
 
 
 
@@ -922,7 +939,7 @@ function closeExtra(el)
 { 
   history.pushState({state:1}, "State 1", "?qr="+wr.id('search-main').value);
   // window.history.back();
-//   document.title = "Heylle | Quick Knowledge";
+  //document.title = "Heylle | Quick Knowledge";
   window.scrollTo(0, 0);
   wr.id(el).style.display = "none";
   wr.id('know-more-popup').style.display = "none";
