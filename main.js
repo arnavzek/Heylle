@@ -453,7 +453,7 @@ function positionsys(){
     wr.id('search-main').style.borderRadius = '0.5vw';
 
     wr.id('search-svg').style.top = '2.35vw';
-    wr.id('search-svg').style.right = '26.5vw';
+    wr.id('search-svg').style.right = '27vw';
     wr.id('search-svg').style.width = '3vw';
     wr.id('search-svg').style.height = '2.5vw';
     wr.id('search-svg').style.padding = '0.2vw';
