@@ -35,6 +35,7 @@ body
   padding-bottom: 15vw;
   background: linear-gradient(135deg,#69a1b8,#5d96ad);
   font-family: calibri;
+      background-repeat: no-repeat !important;
   /*transition: ease-in-out 0.2s;*/
 }
 
@@ -485,7 +486,7 @@ div#ResultIcon{
 #wikipedia{
     height: 0vw;
     width: 0vw;
-    background: #a6c7d5;
+    background: #f5f5f569;
     border-radius: 0.5vw;
 
     overflow: hidden;
@@ -1377,6 +1378,16 @@ table th {
   padding:0 !important;
 }
 
+#web_logo{
+    height: 2vw;
+    width: 2vw;
+    margin-top: 0.3vw;
+    float: left;
+    overflow: hidden;
+    margin-right: 0.5vw;
+    object-fit: cover;
+}
+
 .link {
     margin-bottom: 0vw;
     border-left: 1vw solid;
@@ -1422,6 +1433,11 @@ table th {
 
   body{
       overflow-y: scroll;
+  }
+
+  #web_logo{
+    height: 4vw;
+    width: 4vw;
   }
 
   
@@ -1470,7 +1486,6 @@ table th {
     height: 9vw;
     display: block;
     object-fit: cover;
-    /* border-radius: 1vw; */
     overflow: hidden;
   }
 
