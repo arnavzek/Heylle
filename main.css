@@ -738,7 +738,7 @@ border-radius: 0;
   #sites{
     margin-left: 7vw;
     width: 55vw;
-    box-shadow: 0 0.1vw 20vw #55555578;
+    /*box-shadow: 0 0.1vw 20vw #55555578;*/
   }
 
 
@@ -1389,7 +1389,7 @@ table th {
 }
 
 .link {
-    margin-bottom: 0vw;
+    margin-bottom: 1vw;
     border-left: 0.5vw solid;
     display: block;
     width: 100%;
@@ -1397,9 +1397,10 @@ table th {
     color: #505050;
     height: auto;
     text-align: left;
-    border-bottom: 0.1vw solid #505050;
+    /* border-bottom: 0.1vw solid #505050; */
     background: white;
     padding-bottom: 1.5vw;
+    border-radius: 0.3vw;
 }
 
 .link:hover{
