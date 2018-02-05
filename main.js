@@ -127,7 +127,7 @@ function AccessE(title) {
 
               subjectid(Ofafter);
               propertyid(beforeOf);
-             //  AccessE(Ofafter);
+              AccessE(Ofafter);
              // alert(beforeOf);
              // alert(Ofafter);
               
