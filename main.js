@@ -112,12 +112,12 @@ function AccessE(title) {
           wr.id('output').innerHTML = '';
           wr.id("smartAns").style.display = "none";
 
-          var srterm3 = Mainterms.replace("what's ",'').replace('what','').replace('who','').replace('is ','').replace('are','').replace("did ",'').replace("the ",'');
+          var srterm3 = Mainterms.replace("what's ",'').replace('what','').replace('who','').replace('is ','').replace("did ",'').replace("the ",'');
 
 
           if (Mainterms.indexOf('what') !== -1 || Mainterms.indexOf('when') !== -1 || Mainterms.indexOf('where') !== -1 || Mainterms.indexOf('who') !== -1) {
 
-            var q5 = srterm3.replace("when ",'').replace("where ",'').replace("was ",'');
+            var q5 = srterm3.replace("when ",'').replace("where ",'').replace("was ",'').replace('are','');
 
             if (q5.indexOf('of') !== -1) {
               var Ofindex = q5.indexOf('of');
@@ -127,7 +127,7 @@ function AccessE(title) {
 
               subjectid(Ofafter);
               propertyid(beforeOf);
-               AccessE(Ofafter);
+             //  AccessE(Ofafter);
              // alert(beforeOf);
              // alert(Ofafter);
               
