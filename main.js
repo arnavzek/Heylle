@@ -127,6 +127,8 @@ function AccessE(title) {
 
               subjectid(Ofafter);
               propertyid(beforeOf);
+
+              // accessing the wiki box of the answer subject
               AccessE(Ofafter);
              // alert(beforeOf);
              // alert(Ofafter);
@@ -138,9 +140,9 @@ function AccessE(title) {
           }
 
 
-
+          // limit is changed to 1 for disabling wiki suggestion
     var scriptTag = document.createElement('script');
-    scriptTag.src = 'https://en.wikipedia.org/w/api.php?action=opensearch&callback=getFMainData&limit=7&namespace=0&search='+srterm3;
+    scriptTag.src = 'https://en.wikipedia.org/w/api.php?action=opensearch&callback=getFMainData&limit=1&namespace=0&search='+srterm3;
      // scriptTag.src = 'https://en.wikipedia.org/w/api.php?action=query&format=json&redirects=1&callback=getFMainData&list=search&srlimit=7&srinfo=&srprop=&srwhat=text&srsearch='+Mainterms;
     document.body.appendChild(scriptTag);
     wr.id("loading").style.display = "block";
