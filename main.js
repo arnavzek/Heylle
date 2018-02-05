@@ -360,7 +360,8 @@ function getFMainData(data){
       document.body.appendChild(scriptTag);
 
 
-        lengthR = data[1].length;
+      lengthR = data[1].length;
+
 
      
      for (var i = 1; i < data[1].length; i++) {
@@ -494,6 +495,8 @@ function getRMainData(data)
 {   
   //  wr.id('output').innerHTML = '';
    // wr.id('feeds').innerHTML = '';
+
+
     wr.id('RichWIki').innerHTML = '';
 
     var strFiltered;
@@ -544,6 +547,10 @@ function getRMainData(data)
     wr.id('RichWIki').innerHTML +=  '<a onclick="return showmore(\''+strFiltered+'\')"  href="http://heylle.com/?tp='+strFiltered+'"><p id="output-R" ><span id="moveM" style="width:95% !important; font-size:1.3vw; height:auto; padding-bottom:2vw; "><b><medium id="anchor">'+str+'</medium></b><br>'+sdat.substr(0,c+400)+'<span>...</span></span> </p> </a>';
 
 
+    }else{
+
+      // exception handling: 'may refer to' 
+      wr.id('wikipedia').style = "none";
     }
     
    }
