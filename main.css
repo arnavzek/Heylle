@@ -102,7 +102,7 @@ div#main-input{
     border: 0.2vw solid whitesmoke;
     /* background-color: rgba(227, 222, 222, 0.24); */
     color: #78acc1;
-    font-size: 2.8vw;
+    font-size: 2.2vw;
     border-radius: 5vw;
     /*transition: inherit;*/
     padding-left: 2vw;
@@ -596,7 +596,7 @@ padding-top: 0.5vw; */
     font-size: 1.2vw;
     line-height: 1.6vw;
     color: #444 !important;
-     background-color: hsla(0,0%,92%,1);
+     background-color: hsla(0,0%,100%,1);
     /* padding-bottom: 2vw; */
     cursor: pointer;
     border-radius: 0.2vw;
@@ -685,10 +685,10 @@ border-radius: 0;
   #play{
     position: absolute;
     z-index: 1;
-    height: 4vw;
-    top: 2vw;
+    height: 2.5vw;
+    top: 40%;
     transition: ease-in-out 0.2s;
-    left: 6vw;
+    left: 45%;
   }
 
   #player{
@@ -720,10 +720,10 @@ border-radius: 0;
   }
 
     .images{
-    width: 15vw;
-    height: 8vw;
+    width: 17vw;
+    /* height: 10vw; */
     display: block;
-    object-fit: cover;
+    /* object-fit: cover; */
     overflow: hidden;
   }
 
@@ -1184,12 +1184,12 @@ div#RichWIki p#output-R #resultIa{
     height: 15vw;
     width: 15vw;
     overflow: hidden;
-    object-fit: cover;
+    object-fit: contain;
     border-radius: 0;
-    background: radial-gradient(circle, #3f3f3f, #373737, #1a2e29);
+    /* background: radial-gradient(circle, #ebebeb, #ebebeb, #dddada); */
     /* margin-bottom: 0.5vw; */
     float: left;
-    margin-top: -0.5vw; */
+    margin-top: -0.5vw;
 }
 
 div#RichWIki p#output-R #resultI{
@@ -1400,7 +1400,7 @@ table th {
     /* border-bottom: 0.1vw solid #505050; */
     background: white;
     padding-bottom: 1.5vw;
-    border-radius: 0.3vw;
+    border-radius: 0.2vw;
 }
 
 .link:hover{
@@ -1656,7 +1656,7 @@ div#RichWIki p#output-R #resultIa
     height: 25vw;
     width: 26vw;
     border-radius: 0vw !important;
-    float: none;
+    float: left;
     border-radius: 7vw 7vw 0 0;
     box-shadow: 0 0 0 transparent;
   }
