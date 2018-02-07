@@ -466,6 +466,8 @@ function positionsys(){
     wr.id('search-svg').style.top = '1.35vw';
     wr.id('search-svg').style.right = '24vw';
     wr.id('search-svg').style.width = '3vw';
+    wr.id('search-svg').style.fill = '#666';
+    wr.id('search-svg').style.background = 'transparent';
     wr.id('search-svg').style.height = '2.5vw';
     wr.id('search-svg').style.padding = '0.2vw';
     wr.id('search-svg').style.borderRadius = '0.5vw';
