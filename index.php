@@ -100,7 +100,7 @@ Search has always been the core of the whole internet, it defines the experience
 
 
   <div id="main-input">
-   <input type="Search" placeholder="Let's explore..." class="search_main" id="search-main" onkeydown="MainEnter(event)" value="<?php echo($query) ?>" 
+   <input type="Search" placeholder="Let's search" class="search_main" id="search-main" onkeydown="MainEnter(event)" value="<?php echo($query) ?>" 
     autofocus="true">
    <svg id='search-svg' onclick="MainClick()" viewBox="0 0 24 24">
       <path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z">   
@@ -130,9 +130,6 @@ Search has always been the core of the whole internet, it defines the experience
   <p id="Videos"></p>
 
   <div id="player"></div>
-
-  <br>
-
 
   <div id="sites"></div>
 
