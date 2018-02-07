@@ -33,7 +33,7 @@ body
   padding: 0;
   margin: 0;
   padding-bottom: 15vw;
-  background: linear-gradient(135deg,#69a1b8,#5d96ad);
+  background: #70a7be;
   font-family: calibri;
       background-repeat: no-repeat !important;
   /*transition: ease-in-out 0.2s;*/
@@ -123,17 +123,17 @@ div#main-input{
 
 div#main-input svg{
     position: absolute;
-    color: white;
-    fill: #666;
+    color: whitesmoke;
+    fill: #f5f5f5;
     height: 3.5vw;
-    background: whitesmoke;
+    background: #7fb6cc;
     width: 3.5vw;
     right: 31vw;
     top: 26vw;
-    border-radius: 0.5vw;
+    border-radius: 0.7vw;
     padding: 0.2vw;
     cursor: pointer;
-    /*transition: inherit;*/
+    /* transition: inherit; */
 }
 
 div#main-input svg:hover{
@@ -1852,6 +1852,7 @@ div#main-input svg{
     /* background: #555; */
     height: 8vw;
     width: 8vw;
+     border-radius: 2vw;
 }
 
 div#home-bar #dots{
