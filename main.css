@@ -52,10 +52,11 @@ ul {
 
 #circular{
     background: linear-gradient(135deg,#80b7cd,#5d96ad);
-    margin-top: 5vw;
+    margin-top: 8.5vw;
     box-shadow: 0vw 0.1vw 1vw 0vw rgba(80, 80, 80, 0.4);
     width: 40vw;
-    height: 31vw;
+    height: 22vw;
+    overflow: hidden;
     border: 0.1vw solid #f5f5f5;
     border-radius: 1vw;
 }
@@ -82,6 +83,7 @@ nav #hey2
 {
     height: 4.5vw;
     margin: 0;
+    display: none;
     vertical-align: middle;
     cursor: pointer;
     /*transition: all 0.2s ease-in-out;*/
@@ -90,24 +92,24 @@ nav #hey2
 
 
 div#main-input{
-    margin-top: 2vw;
+    margin-top: 3vw;
     padding-bottom: 11vw;
 
 }
 
 #main-input #search-main{
-  outline: none;
-    width: 35vw;
+    outline: none;
+    width: 40vw;
     height: 5vw;
     border: 0.2vw solid whitesmoke;
     /* background-color: rgba(227, 222, 222, 0.24); */
-    color: #78acc1;
+    color: #666;
     font-size: 2.2vw;
-    border-radius: 5vw;
-    /*transition: inherit;*/
-    padding-left: 2vw;
+    border-radius: 0;
+    /* transition: inherit; */
     padding-right: 5vw;
     background: whitesmoke;
+    font-family: calibri;
 }
 
 #main-input #search-main::-webkit-input-placeholder {
@@ -122,13 +124,13 @@ div#main-input{
 div#main-input svg{
     position: absolute;
     color: white;
-    fill: #78adc1;
+    fill: #666;
     height: 3.5vw;
     background: whitesmoke;
     width: 3.5vw;
-    right: 33.3vw;
+    right: 31vw;
     top: 26vw;
-    border-radius: 5vw;
+    border-radius: 0.5vw;
     padding: 0.2vw;
     cursor: pointer;
     /*transition: inherit;*/
@@ -484,8 +486,9 @@ div#ResultIcon{
 }
 
 #wikipedia{
-    height: 0vw;
-    width: 0vw;
+    height: auto;
+    width: 90vw;
+    display: none;
     background: #444;
     border-radius: 0.2vw;
     padding-bottom: 0.5vw;
@@ -543,14 +546,14 @@ span#infobox sup{
 
 #output-R #moveM{
     display: inline-block;
-    font-size: 1.2vw;
+    font-size: 1.5vw;
     padding-right: 1vw;
-    width: 34vw;
+    width: 36vw;
     height: 14vw;
     float: left;
     margin-left: 1vw;
     overflow: hidden;
-    line-height: 1.75vw;
+    line-height: 2.3vw;
 }
 
 span#infobox ul{
@@ -603,7 +606,7 @@ padding-top: 0.5vw; */
     box-shadow: 0vw 0.2vw 0.5vw rgba(0, 0, 0, 0.5);
     /*transition: 0.3s ease-in-out;*/
     /* margin-bottom: 2vw; */
-    width: 87vw;
+    width: 100%;
     /* float: left; */
     height: auto;
     overflow: hidden;
@@ -728,7 +731,7 @@ border-radius: 0;
   }
 
   #Videos{
-    margin-top: 1.5vw;
+    margin-top: 0;
     display: table-caption;
     float: right;
     margin-right: 23vw;
@@ -736,8 +739,8 @@ border-radius: 0;
   }
 
   #sites{
-    margin-left: 7vw;
-    width: 55vw;
+    margin-left: 5vw;
+    width: 60vw;
     /*box-shadow: 0 0.1vw 20vw #55555578;*/
   }
 
@@ -1436,6 +1439,11 @@ table th {
       overflow-y: scroll;
   }
 
+#main-input #search-main::-webkit-input-placeholder {
+  color: #78adc1;
+  font-size: 5vw;
+}
+
   #wikipedia{
     padding-bottom: 0;
   }
@@ -1639,7 +1647,7 @@ div#RichWIki p#output-R
   {
     font-size: 3.8vw;
     box-shadow: 0vw 0.2vw 0.5vw rgba(0, 0, 0, 0.26);
-    width: 90vw;
+    width: 100%;
     overflow: hidden;
     float: none;
     height: auto;
@@ -1787,12 +1795,13 @@ nav{
 }
 
 #circular{
-      /* height: 100%; */
-    height: auto;
     width: 90%;
     position: relative;
+    border-radius: 0;
+    height: 46vw;
+    border-radius: 2vw;
     padding-top: 5vw;
-    margin-top: 50%;
+    margin-top: 35%;
 }
 
 #menuimg{
@@ -1820,7 +1829,7 @@ div#main-input{
 }
 
 #main-input #search-main {
-    width: 82vw;
+    width: 90vw;
     font-size: 5vw;
     /* padding-bottom: 0.5vw; */
     /* padding-left: 2vw; */
@@ -1828,7 +1837,7 @@ div#main-input{
     /* transition: inherit; */
     /* border: 0.5vw solid whitesmoke; */
     /* border-radius: 50vw; */
-    height: 10vw;
+    height: 13vw;
     margin-top: 5vw;
 }
 
@@ -1837,8 +1846,8 @@ div#main-input{
 }
 
 div#main-input svg{
-    top: 44vw;
-    right: 7vw;
+    top: 40vw;
+    right: 3.5vw;
     /* width: 10vw; */
     /* background: #555; */
     height: 8vw;
