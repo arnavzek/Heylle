@@ -410,13 +410,13 @@ function positionsys(){
 
 
     wr.id('home-bar').style.position = 'absolute';
-    wr.id('home-bar').style.top = '0.5vw';
-    wr.id('home-bar').style.right = '-1.5vw';
+    wr.id('home-bar').style.top = '1.7vw';
+    wr.id('home-bar').style.right = '2vw';
     wr.id('home-bar').style.width = 'auto';
     wr.id('home-bar').style.height = '3vw';
     wr.id('home-bar').style.color = 'whitesmoke';
     wr.id('home-bar').style.backgroundColor = 'transparent';
-    wr.id('bod').style.background = ' linear-gradient(-180deg,#80b7cd,#ffffff) ';
+    wr.id('bod').style.background = ' #96c6d9 ';
     wr.id('list').style.position = 'relative';
     wr.id('list').style.bottom = '0';
     wr.id('list').style.left = '-3vw';
@@ -434,10 +434,11 @@ function positionsys(){
 
     wr.id('hey2').style.display = 'none';
    
-    wr.id('main-input').style.marginTop = '0';
+    wr.id('main-input').style.marginTop = '1.3vw';
      wr.id('main-input').style.marginBottom = '0.5vw';
     wr.id('main-input').style.padding = '0';
-    wr.id('main-input').style.marginRight = '20%';
+    // wr.id('main-input').style.paddingLeft = '0.5vw';
+    wr.id('main-input').style.marginRight = '28%';
     
     wr.id('navigation').style.float = 'left';
     wr.id('navigation').style.padding = '0';
@@ -450,24 +451,25 @@ function positionsys(){
     wr.id('circular').style.marginTop = '0';
     wr.id('circular').style.width = '100vw';
     wr.id('circular').style.height = 'auto';
-    wr.id('circular').style.background = 'whitesmoke';
+    wr.id('circular').style.background = 'transparent';
     wr.id('circular').style.boxShadow = 'none';
     wr.id('circular').style.border = '0vw';
     wr.id('circular').style.borderRadius = '0vw';
 
-    wr.id('search-main').style.width = '70vw';
-    wr.id('search-main').style.height = '3.5vw';
+    wr.id('search-main').style.width = '62vw';
+    wr.id('search-main').style.height = '3.7vw';
     wr.id('search-main').style.fontWeight = '900';
-    wr.id('search-main').style.fontSize = '2.75vw';
-    wr.id('search-main').style.borderRadius = '0';
+    wr.id('search-main').style.fontSize = '2.3vw';
+    wr.id('search-main').style.borderRadius = '0.5vw';
     wr.id('search-main').style.border = 'none';
-    wr.id('search-main').style.borderBottom = '0.1vw solid';
+    wr.id('search-main').style.paddingLeft = '0.5vw';
+    // wr.id('search-main').style.borderBottom = '0.1vw solid';
 
-    wr.id('search-svg').style.top = '1.35vw';
-    wr.id('search-svg').style.right = '24vw';
+    wr.id('search-svg').style.top = '2.7vw';
+    wr.id('search-svg').style.right = '32.7vw';
     wr.id('search-svg').style.width = '3vw';
     wr.id('search-svg').style.fill = '#666';
-    wr.id('search-svg').style.background = 'transparent';
+    wr.id('search-svg').style.background = 'whitesmoke';
     wr.id('search-svg').style.height = '2.5vw';
     wr.id('search-svg').style.padding = '0.2vw';
     wr.id('search-svg').style.borderRadius = '0.5vw';
@@ -490,8 +492,8 @@ function positionsys(){
       wr.id('navigation').style.top = '0.5vw';
       wr.id('navigation').style.left = '0.2vw';
       wr.id('navigation').style.display = 'block';
-      wr.id('search-svg').style.top = '0.5vw';
-      wr.id('search-svg').style.right = '5vw';
+      wr.id('search-svg').style.top = '2.3vw';
+      wr.id('search-svg').style.right = '6vw';
       wr.id('search-svg').style.height = '8vw';
       wr.id('search-svg').style.width = '8vw';
       wr.id('home-bar').style.top = '9vw';
